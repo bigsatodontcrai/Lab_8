@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(107, 13, 13);
+    width: 500;
+    height: 500;
+    display: grid;
+    grid: auto-flow;
+    justify-content: center;
+    justify-items: center;
+}
+
+.content {
+    background-image: url("bg.png");
+    background-size: 100%;
+    width: 500;
+    height: 550;
+    display: grid;
+    grid: auto-flow;
+    justify-content: center;
+    justify-items: center;
+}
+
+#name {
+    height: 15;
+    font: sans-serif;
+    background: rgba(255, 255, 255, 0.6);
+    justify-content: center;
+    justify-items: center;
+    color: magenta;
+}
+
+#name:hover {
+    height: 15;
+    font: sans-serif;
+    background: rgba(255, 255, 255, 0.9);
+    justify-content: center;
+    justify-items: center;
+    color: magenta;
+}
+
+.bio{
+    height: 40;
+    width: 100;
+    background: rgba(255, 255, 255, 0.6);
+    font: sans-serif;
+    background-color: none;
+    justify-content: center;
+    justify-items: center;
+    color: black;
+}
+
+.bio:hover{
+    height: 40;
+    width: 100;
+    background: rgba(255, 255, 255, 0.9);
+    font: sans-serif;
+    background-color: none;
+    justify-content: center;
+    justify-items: center;
+    color: black;
+}
+
+.links:hover{
+    background: white;
+}
+
+.YouTube{
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.YouTube:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.Link{
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.Link:hover{
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#bob{
+    width: 200;
+    height: 100;
+    font: sans-serif;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: solid;
+    border-width: 10;
+    border-color: #FFFFFF;
+}
